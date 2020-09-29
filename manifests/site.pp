@@ -9,7 +9,7 @@ node 'master.puppet.vm' {
   }
 }
 
-node 'minetest.puppet.vm' {
+node 'ans-host1.ans.local' {
   include role::minecraft_server
 }
 
